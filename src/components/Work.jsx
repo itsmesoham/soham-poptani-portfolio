@@ -2,9 +2,9 @@
 
 import ProjectCard from "./ProjectCard";
 
-const imagecard1 = new URL('../../assets/images/project-1.gif', import.meta.url).href;
-const imagecard2 = new URL('../../assets/images/project-2.jpg', import.meta.url).href;
-const imagecard3 = new URL('../../assets/images/project-3.jpg', import.meta.url).href;
+import imagecard1 from '../assets/images/project-1.gif';
+import imagecard2 from '../assets/images/project-2.jpg';
+import imagecard3 from '../assets/images/project-3.jpg';
 
 const works = [
     {
