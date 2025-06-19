@@ -2,6 +2,8 @@
 
 import { ButtonPrimary, ButtonOutline } from "./Button"
 import avatar from '../assets/images/avatar-2.jpg'
+import resume from '../../public/Poptani-Soham-CV.pdf'
+import photo from '../assets/images/myphoto.png'
 
 const Hero = () => {
     return (
@@ -40,6 +42,8 @@ const Hero = () => {
                         <ButtonPrimary
                             label="Download CV"
                             icon="download"
+                            href={resume}
+                            download
                         />
 
                         <ButtonOutline
@@ -55,7 +59,7 @@ const Hero = () => {
                     <figure className="w-full h-[550px] max-w-[480px] ml-auto bg-gradient-to-t from-blue-500 via-25% 
                     via-blue-500/40 to-65% rounded-[60px] overflow-hidden">
                         <img
-                            // src="/src/assets/images/myphoto1.png"
+                            // src={photo}
                             width={480}
                             height={550}
                             alt="Soham Poptani"
