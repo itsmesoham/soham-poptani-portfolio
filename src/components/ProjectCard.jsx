@@ -7,7 +7,7 @@ const ProjectCard = ({
     title,
     tags,
     projectLink,
-    classes
+    classes = ""
 }) => {
     return (
         <div
