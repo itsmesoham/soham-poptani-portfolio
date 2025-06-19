@@ -5,6 +5,14 @@ import logo from '../assets/images/logo_new.svg'
 /*Components*/
 import Navbar from "./Navbar"
 
+const sitemap = [
+    {
+        label: 'Home',
+        href: '#home',
+        section: 'home'
+    }
+]
+
 const Header = () => {
     const [navOpen, setNavOpen] = useState(false);
 
