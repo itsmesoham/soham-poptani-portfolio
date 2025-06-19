@@ -1,22 +1,25 @@
 /*Components*/
 
 import ProjectCard from "./ProjectCard";
+import imagecard1 from '../assets/images/project-1.gif'
+import imagecard2 from '../assets/images/project-2.jpg'
+import imagecard3 from '../assets/images/project-3.jpg'
 
 const works = [
     {
-        imgSrc: '/src/assets/images/project-1.gif',
+        imgSrc: {imagecard1},
         title: 'Digital Agency Website',
         tags: ['ReactJS', 'CSS', 'MongoDB'],
         projectLink: ''
     },
     {
-        imgSrc: '/src/assets/images/project-2.jpg',
+        imgSrc: {imagecard2},
         title: 'Musiflow (Online Music Streaming Platform)',
         tags: ['ReactJS', 'Tailwind CSS', 'Supabase'],
         projectLink: 'https://github.com/Meet211003/Music-Application-MUSIFLOW-'
     },
     {
-        imgSrc: '/src/assets/images/project-3.jpg',
+        imgSrc: {imagecard3},
         title: 'Inventory Managment System',
         tags: ['Java', 'JavaSwing', 'MySQL'],
         projectLink: 'https://github.com/itsmesoham/inventory-managment-system-java-project'

@@ -1,5 +1,6 @@
 /*Node modules*/
 import { useState } from "react"
+import logo from '../assets/images/logo_new.svg'
 
 /*Components*/
 import Navbar from "./Navbar"
@@ -13,7 +14,8 @@ const Header = () => {
 
                 <h1>
                     <a href="/" className="logo">
-                        <img src="/src/assets/images/logo_new.svg"
+                        <img
+                            src={logo}
                             width={40}
                             height={40}
                             alt="Logo"
@@ -31,11 +33,11 @@ const Header = () => {
                         </span>
                     </button>
 
-                    <Navbar navOpen={navOpen}/>
+                    <Navbar navOpen={navOpen} />
                 </div>
 
-                <a href="#contact" 
-                className="btn btn-secondary max-md:hidden md:justify-self-end">
+                <a href="#contact"
+                    className="btn btn-secondary max-md:hidden md:justify-self-end">
                     Contact Me
                 </a>
 

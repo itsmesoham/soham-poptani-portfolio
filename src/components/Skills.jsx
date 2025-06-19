@@ -1,45 +1,53 @@
 /*Components*/
 
 import SkillCard from "./SkillCard";
+import tailwindcsslogo from '../assets/images/tailwindcss.svg'
+import csslogo from '../assets/images/css3.svg'
+import javascriptlogo from '../assets/images/javascript.svg'
+import nodejslogo from '../assets/images/nodejs.svg'
+import expressjslogo from '../assets/images/expressjs.svg'
+import mongodblogo from '../assets/images/mongodb.svg'
+import reactlogo from '../assets/images/react.svg'
+import figmalogo from '../assets/images/figma.svg'
 
 const skillItem = [
     {
-        imgSrc: '/src/assets/images/tailwindcss.svg',
+        imgSrc: {tailwindcsslogo},
         label: 'TailwindCSS',
         desc: 'User Interface'
     },
     {
-        imgSrc: '/src/assets/images/css3.svg',
+        imgSrc: {csslogo},
         label: 'CSS',
         desc: 'User Interface'
     },
     {
-        imgSrc: '/src/assets/images/javascript.svg',
+        imgSrc: {javascriptlogo},
         label: 'JavaScript',
         desc: 'Interaction'
     },
     {
-        imgSrc: '/src/assets/images/nodejs.svg',
+        imgSrc: {nodejslogo},
         label: 'NodeJS',
         desc: 'Web Server'
     },
     {
-        imgSrc: '/src/assets/images/expressjs.svg',
+        imgSrc: {expressjslogo},
         label: 'ExpressJS',
         desc: 'Node Framework'
     },
     {
-        imgSrc: '/src/assets/images/mongodb.svg',
+        imgSrc: {mongodblogo},
         label: 'MongoDB',
         desc: 'Database'
     },
     {
-        imgSrc: '/src/assets/images/react.svg',
+        imgSrc: {reactlogo},
         label: 'React',
         desc: 'Framework'
     },
     {
-        imgSrc: '/src/assets/images/figma.svg',
+        imgSrc: {figmalogo},
         label: 'Figma',
         desc: 'Design tool'
     },

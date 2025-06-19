@@ -1,5 +1,6 @@
 /*Components*/
 import { ButtonPrimary } from "./Button";
+import logo from '../assets/images/logo_new.svg'
 
 const sitemap = [
     {
@@ -108,7 +109,7 @@ const Footer = () => {
                 <div className="flex items-center justify-between pt-10 mb-8">
                     <a href="#home" className="">
                         <img
-                            src="/src/assets/images/logo_new.svg"
+                            src={logo}
                             width={40}
                             height={40}
                             alt="Logo"
