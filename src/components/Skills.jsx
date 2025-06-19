@@ -12,42 +12,42 @@ import figmalogo from '../assets/images/figma.svg'
 
 const skillItem = [
     {
-        imgSrc: {tailwindcsslogo},
+        imgSrc: tailwindcsslogo,
         label: 'TailwindCSS',
         desc: 'User Interface'
     },
     {
-        imgSrc: {csslogo},
+        imgSrc: csslogo,
         label: 'CSS',
         desc: 'User Interface'
     },
     {
-        imgSrc: {javascriptlogo},
+        imgSrc: javascriptlogo,
         label: 'JavaScript',
         desc: 'Interaction'
     },
     {
-        imgSrc: {nodejslogo},
+        imgSrc: nodejslogo,
         label: 'NodeJS',
         desc: 'Web Server'
     },
     {
-        imgSrc: {expressjslogo},
+        imgSrc: expressjslogo,
         label: 'ExpressJS',
         desc: 'Node Framework'
     },
     {
-        imgSrc: {mongodblogo},
+        imgSrc: mongodblogo,
         label: 'MongoDB',
         desc: 'Database'
     },
     {
-        imgSrc: {reactlogo},
+        imgSrc: reactlogo,
         label: 'React',
         desc: 'Framework'
     },
     {
-        imgSrc: {figmalogo},
+        imgSrc: figmalogo,
         label: 'Figma',
         desc: 'Design tool'
     },
