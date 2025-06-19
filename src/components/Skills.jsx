@@ -1,14 +1,15 @@
 /*Components*/
 
 import SkillCard from "./SkillCard";
-import tailwindcsslogo from '../assets/images/tailwindcss.svg'
-import csslogo from '../assets/images/css3.svg'
-import javascriptlogo from '../assets/images/javascript.svg'
-import nodejslogo from '../assets/images/nodejs.svg'
-import expressjslogo from '../assets/images/expressjs.svg'
-import mongodblogo from '../assets/images/mongodb.svg'
-import reactlogo from '../assets/images/react.svg'
-import figmalogo from '../assets/images/figma.svg'
+
+const tailwindcsslogo = new URL('../assets/images/tailwindcss.svg', import.meta.url).href;
+const csslogo = new URL('../assets/images/css3.svg', import.meta.url).href;
+const javascriptlogo = new URL('../assets/images/javascript.svg', import.meta.url).href;
+const nodejslogo = new URL('../assets/images/nodejs.svg', import.meta.url).href;
+const expressjslogo = new URL('../assets/images/expressjs.svg', import.meta.url).href;
+const mongodblogo = new URL('../assets/images/mongodb.svg', import.meta.url).href;
+const reactlogo = new URL('../assets/images/react.svg', import.meta.url).href;
+const figmalogo = new URL('../assets/images/figma.svg', import.meta.url).href;
 
 const skillItem = [
     {
