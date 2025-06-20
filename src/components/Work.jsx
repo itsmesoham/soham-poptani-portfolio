@@ -11,7 +11,7 @@ const works = [
         imgSrc: imagecard1,
         title: 'Digital Agency Website',
         tags: ['ReactJS', 'CSS', 'MongoDB'],
-        projectLink: 'https://webiso-react-app.vercel.app/'
+        projectLink: 'https://webiso-web.vercel.app/'
     },
     {
         imgSrc: imagecard2,
