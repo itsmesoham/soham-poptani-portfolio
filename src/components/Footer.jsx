@@ -62,7 +62,7 @@ const Footer = () => {
                             Let&apos;s work together today!
                         </h2>
                         <ButtonPrimary
-                            href="mailto:sohampoptani6704@gmail.com"
+                            href="#contact"
                             label="Start project"
                             icon="chevron_right"
                         />
