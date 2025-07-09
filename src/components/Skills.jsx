@@ -27,11 +27,11 @@ const skillItem = [
         label: 'JavaScript',
         desc: 'Interaction'
     },
-    {
-        imgSrc: nodejslogo,
-        label: 'NodeJS',
-        desc: 'Web Server'
-    },
+    // {
+    //     imgSrc: nodejslogo,
+    //     label: 'NodeJS',
+    //     desc: 'Web Server'
+    // },
     {
         imgSrc: expressjslogo,
         label: 'ExpressJS',
