@@ -2,7 +2,7 @@
 
 import { ButtonPrimary, ButtonOutline } from "./Button"
 import avatar from '../assets/images/avatar-2.jpg'
-import resume from '../../public/Poptani-Soham-Resume.pdf'
+import resume from '../../public/Poptani-Soham-Resume.pdf'  
 import photo from '../assets/images/myphoto2.png'
 
 const Hero = () => {
