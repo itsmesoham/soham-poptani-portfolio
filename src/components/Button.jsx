@@ -5,7 +5,7 @@ import PropTypes from 'prop-types';
 
 const ButtonPrimary = ({
     href,
-    target = '_self',
+    // target = '_self',
     label,
     icon,
     classes = "",
@@ -15,7 +15,7 @@ const ButtonPrimary = ({
         return (
             <a
                 href={href}
-                target={target}
+                // target={target}
                 download={download}
                 className={"btn btn-primary " + classes}
             >
