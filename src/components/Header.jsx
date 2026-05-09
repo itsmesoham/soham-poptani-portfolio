@@ -44,8 +44,16 @@ const Header = () => {
                     <Navbar navOpen={navOpen} />
                 </div>
 
-                <a href="#contact"
-                    className="btn btn-secondary max-md:hidden md:justify-self-end">
+                <a
+                    href="#contact"
+                    className="btn btn-secondary max-md:hidden md:justify-self-end"
+                    onClick={(e) => {
+                        e.preventDefault()
+                        document.getElementById('contact')?.scrollIntoView({
+                            behavior: 'smooth'
+                        })
+                    }}
+                >
                     Contact Me
                 </a>
 
