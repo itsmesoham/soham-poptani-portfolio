@@ -43,7 +43,7 @@ const Hero = () => {
                             label="Download Resume"
                             icon="download"
                             href="/Soham_Poptani_Resume.pdf"
-                            download
+                            downloadName="Soham_Poptani_Resume.pdf"
                         />
 
                         {/* <ButtonOutline
