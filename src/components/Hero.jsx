@@ -2,7 +2,7 @@
 
 import { ButtonPrimary, ButtonOutline } from "./Button"
 import avatar from '../assets/images/avatar-2.jpg'
-import resume from '../../public/Soham_Poptani - Resume.pdf'
+import resume from '../../public/Soham_Poptani_Resume.pdf'
 import photo from '../assets/images/myphoto2.png'
 
 const Hero = () => {
@@ -42,7 +42,7 @@ const Hero = () => {
                         <ButtonPrimary
                             label="Download Resume"
                             icon="download"
-                            href={resume}
+                            href="/Soham_Poptani_Resume.pdf"
                             download
                         />
 

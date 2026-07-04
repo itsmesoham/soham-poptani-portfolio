@@ -1,7 +1,4 @@
-/*Node modules*/
 import PropTypes from 'prop-types';
-
-/*Primary Button*/
 
 const ButtonPrimary = ({
     href,
